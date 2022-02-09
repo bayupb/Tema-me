@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+        scroll-behavior:smooth;
+    }
+
+    .current_page_item {
+        color: aqua !important;
+    }
+@layer components{
+
+   
+
+    /* service images */
+    .img-service .wp-post-image{
+        @apply w-full h-48 object-fill rounded-md
+    }
+
+    /* work images */
+    .img-working .wp-post-image{
+        @apply w-full h-48 object-fill rounded-md
+    }
+    
+    .img-clients .wp-post-image{
+        @apply w-12 h-12 object-fill rounded-full
+    }
+}

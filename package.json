@@ -1,0 +1,22 @@
+{
+  "name": "Tema-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.18"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.41"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/main.css -o ./dist/main.css ",
+    "mix": "npx mix",
+    "prod": "npx mix --production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
